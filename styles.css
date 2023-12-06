@@ -1,0 +1,148 @@
+/* !RESET CSS START */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: #5f6368;
+}
+body {
+  background-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* !RESET CSS START */
+/* !HEADER START */
+.container {
+  margin: 0 2%;
+  height: calc(100vh - 60px);
+}
+header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  height: 60px;
+}
+.header-left {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.header-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.header-right img {
+  height: 17px;
+}
+.header-right button {
+  background-color: #39a7ff;
+  height: 36px;
+  color: white;
+  border: 1px solid;
+  border-radius: 4px;
+  font-weight: 600;
+  width: 70px;
+}
+header .header-links:hover {
+  text-decoration: underline;
+  color: #4a4d51;
+}
+/* !HEADER STOP */
+/* !MAİN START */
+.main {
+  height: calc(100vh - 120px);
+  align-items: center;
+  display: flex;
+}
+.main-container {
+  width: 600px;
+  margin: 0 auto 100px;
+}
+
+main .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo img {
+  width: 300px;
+  height: 100%;
+}
+.search {
+  margin-bottom: 20px;
+  border: 2px solid #5f63681f;
+  border-radius: 22px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.search input {
+  width: 90%;
+  height: 40px;
+  border: none;
+}
+.search input:focus {
+  border: none;
+  outline: none;
+}
+.search img {
+  height: 20px;
+}
+.main-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.main-links button {
+  border: none;
+  width: 20%;
+  height: 36px;
+  color: #4a4d51;
+  border-radius: 2px;
+}
+.main-links button:hover {
+  border: 1px solid #5f63681b;
+  cursor: pointer;
+}
+/* !MAİN STOP */
+/* !FOOTER START */
+.footer {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 0 2%;
+}
+.footer-right {
+  display: flex;
+  gap: 30px;
+}
+.footer-left {
+  display: flex;
+  gap: 30px;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color: #4a4d51;
+}
+/* !FOOTER STOP */
